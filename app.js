@@ -23,12 +23,14 @@ const showMovies = (data) => {
 
         <img src="${IMGPATH + element.poster_path}" class="card-img-top" alt="...">
         <div class="card-body">
-            <h5 class="card-title">${element.original_title}</h5>
-            <h3>${element.vote_average}</h3>
-            <p class="card-text">${element.overview}</p>
+            <h5 class="card-title">Title: ${element.original_title}</h5>
+            <h4>Rating: ${element.vote_average}</h4>
+            <h5>Release Date: ${element.release_date}</h5>
+            <small><p>Overview: ${element.overview}</p></small>
+
         </div>
         `;
-        
+       
         movieBox.appendChild(box)
     });
 }
