@@ -12,13 +12,13 @@ You will need a web browser and an internet connection to run this app.
 
 
 ## Copy code
-$ git clone ('''https://github.com/ankitjhagithub21/Movie-App.git'''')
-$ cd Movie-App
-$ open index.html
+- git clone ('''https://github.com/ankitjhagithub21/Movie-App.git'''')
+- cd Movie-App
+- open index.html
 
 ## Features
 - Search for movies by title
-- Browse movie information including titles, release dates, and descriptions
+- Browse movie information including titles, ratings, release dates, and descriptions
 - Responsive design using Bootstrap
 
 ## Built With
